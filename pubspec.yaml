@@ -1,0 +1,40 @@
+
+name: soundnest
+description: A simple music app built with Flutter and Supabase.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Audio player
+  just_audio: ^0.9.36
+
+  # Supabase
+  supabase_flutter: ^1.10.19
+
+  # UI & State
+  provider: ^6.1.1
+
+  # Others
+  http: ^1.2.1
+  path_provider: ^2.1.2
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+
+  uses-material-design: true
+
+  # Jika kamu ingin menambahkan asset lokal seperti gambar musik.jpg, aktifkan bagian ini:
+  # assets:
+  #   - assets/musik.jpg
